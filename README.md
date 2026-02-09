@@ -1,10 +1,13 @@
-# EMUZ80_RP2040_PCB
-KiCad PCB for EMUZ80 for Akizuki AE-RP2040 or 2350A compatible pin assign boards
+# EMUZ80_RP2350B_PCB
+
+KiCad PCB for EMUZ80 for WeAct RP2350B CoreBoard
 
 ## What is this.
 
-EMUZ80 は有名なアレだが、Raspberry Pi Pico/Pico2 を得て、Z80 を 4MHz 駆動できるようになった。EMUZ80 の2チップ構成のシンプルさに敬意を表して、Z80 と AE_RP2040 の秋月 B 基板サイズの基板を作成した。
+RP2350B CoreBoard ベースの Z80 基板を手配線で作成し、ソフトを開発してきたが、そろそろ使い方が固まってきたので、RP2350B Core Board ベースで8bit CPU 駆動ソフト開発用の基板を作れそうな気がしたので、基板を1枚起こした。
 
-EMUZ80 用にさまざまな mezzanine 基板が作成されている。それらを Pico/Pico2 で利用するためには、mezzanine 基板の制御信号の割り当てを変更する必要がある。そのために、基板中央にジャンパ飛ばし用穴列を設けた。
+6502駆動のために、メモリマップドI/Oのためのアドレスデコードも試そうと、GPIO16 に WAIT を割り当て、その上3本を空けてある。ファームがまだできていないので検証はまだだが、多分大丈夫。
+
+AE-RP2040 基板で搭載した、ジャンパ飛ばし端子は用意できなかった。既存のメザニン基板をそのまま使うことは多分難しいだろう。
 
 
