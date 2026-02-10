@@ -4802,7 +4802,7 @@
 		(uuid "c04eb46c-f9d3-4a06-9192-9c43544ab6b1")
 	)
 	(no_connect
-		(at 194.31 132.08)
+		(at 359.41 137.16)
 		(uuid "c60b0d5b-64b0-4cd1-b8ae-498830685e7f")
 	)
 	(no_connect
@@ -5781,16 +5781,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 132.08) (xy 198.12 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76139167-faf8-488b-b32e-0488f17d61d3")
-	)
-	(wire
-		(pts
 			(xy 243.84 182.88) (xy 243.84 119.38)
 		)
 		(stroke
@@ -6491,6 +6481,16 @@
 	)
 	(wire
 		(pts
+			(xy 359.41 137.16) (xy 365.76 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6ceee84-7270-492c-a613-e54afd4a7bba")
+	)
+	(wire
+		(pts
 			(xy 62.23 60.96) (xy 73.66 60.96)
 		)
 		(stroke
@@ -6558,16 +6558,6 @@
 			(type default)
 		)
 		(uuid "bc514c3a-8361-43fb-b7b1-8069e367d87d")
-	)
-	(wire
-		(pts
-			(xy 198.12 137.16) (xy 365.76 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bda819be-7059-428f-b1ba-66c4701b9cd5")
 	)
 	(wire
 		(pts
@@ -7101,16 +7091,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 132.08) (xy 198.12 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5a28119-d03c-46b9-88a7-9dacfaf69fe3")
-	)
-	(wire
-		(pts
 			(xy 109.22 50.8) (xy 261.62 50.8)
 		)
 		(stroke
@@ -7278,16 +7258,6 @@
 			(justify left bottom)
 		)
 		(uuid "2b03c762-d634-425b-8b26-250aa16826cd")
-	)
-	(label "RFSH"
-		(at 195.58 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2b4b9c46-53e0-4494-b6c8-aff71a037960")
 	)
 	(label "RD"
 		(at 195.58 101.6 0)
@@ -8733,7 +8703,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "local-f:RB2350B_Core_Board"
 			(at 68.58 43.18 0)
 			(effects
 				(font
